@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SplashScreenIgMetaIcon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
