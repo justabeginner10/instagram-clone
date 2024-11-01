@@ -22,7 +22,7 @@ import SnapKit
 ///   - `SnapKit` for layout constraints.
 ///   - `UIImageView` for displaying icon and footer images.
 ///   - `DispatchQueue` for a timed transition after 3 seconds.
-class SplashScreenViewController: UIViewController {
+class IgSplashScreenViewController: UIViewController {
 
     // MARK: - Properties
     
@@ -81,10 +81,10 @@ class SplashScreenViewController: UIViewController {
     
     // MARK: - Navigation
     
-    /// Navigates to the main view controller (`IgHomeViewController`) after the splash screen delay.
+    /// Navigates to the main view controller (`IgHomeTabBarController`) after the splash screen delay.
     /// Configures a cross-dissolve transition for a smooth effect.
     private func showMainViewController() {
-        let destination = IgHomeViewController()
+        let destination = IgHomeTabBarController()
         destination.modalTransitionStyle = .crossDissolve
         destination.modalPresentationStyle = .fullScreen
         navigationController?.present(destination, animated: true)

@@ -11,7 +11,12 @@
 		482EC4F62CD4F8E300B2F6A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EC4F22CD4F8E300B2F6A0 /* SceneDelegate.swift */; };
 		482EC4F82CD4F8E300B2F6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482EC4EC2CD4F8E300B2F6A0 /* Assets.xcassets */; };
 		482EC4FA2CD4F8E300B2F6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482EC4EF2CD4F8E300B2F6A0 /* LaunchScreen.storyboard */; };
-		48A434452CD50E0C00465B5D /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A434432CD50E0C00465B5D /* SplashScreenViewController.swift */; };
+		48A434452CD50E0C00465B5D /* IgSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A434432CD50E0C00465B5D /* IgSplashScreenViewController.swift */; };
+		48A434542CD52C6D00465B5D /* IgHomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A434532CD52C6D00465B5D /* IgHomeTabBarController.swift */; };
+		48A434662CD52CFE00465B5D /* IgProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A434642CD52CFE00465B5D /* IgProfileViewController.swift */; };
+		48A4346B2CD52D0700465B5D /* IgReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4346A2CD52D0700465B5D /* IgReelsViewController.swift */; };
+		48A4346D2CD52D1100465B5D /* IgSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4346C2CD52D1100465B5D /* IgSearchViewController.swift */; };
+		48A4346F2CD52D1B00465B5D /* IgCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4346E2CD52D1B00465B5D /* IgCreateViewController.swift */; };
 		48CB94692CD4FA6900DED792 /* IgHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CB94662CD4FA6900DED792 /* IgHomeViewController.swift */; };
 		F29D855A6D1057E7A72344AD /* Pods_Instagram_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887BFBAEACEA935C81EF7A5 /* Pods_Instagram_Clone.framework */; };
 /* End PBXBuildFile section */
@@ -24,7 +29,12 @@
 		482EC4ED2CD4F8E300B2F6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482EC4EE2CD4F8E300B2F6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		482EC4F22CD4F8E300B2F6A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48A434432CD50E0C00465B5D /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		48A434432CD50E0C00465B5D /* IgSplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgSplashScreenViewController.swift; sourceTree = "<group>"; };
+		48A434532CD52C6D00465B5D /* IgHomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgHomeTabBarController.swift; sourceTree = "<group>"; };
+		48A434642CD52CFE00465B5D /* IgProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgProfileViewController.swift; sourceTree = "<group>"; };
+		48A4346A2CD52D0700465B5D /* IgReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgReelsViewController.swift; sourceTree = "<group>"; };
+		48A4346C2CD52D1100465B5D /* IgSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgSearchViewController.swift; sourceTree = "<group>"; };
+		48A4346E2CD52D1B00465B5D /* IgCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgCreateViewController.swift; sourceTree = "<group>"; };
 		48CB94662CD4FA6900DED792 /* IgHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgHomeViewController.swift; sourceTree = "<group>"; };
 		A12C0C302D859CE5BB2B9A1D /* Pods-Instagram-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-Clone/Pods-Instagram-Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		D887BFBAEACEA935C81EF7A5 /* Pods_Instagram_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,16 +86,93 @@
 		48A434442CD50E0C00465B5D /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
-				48A434432CD50E0C00465B5D /* SplashScreenViewController.swift */,
+				48A434432CD50E0C00465B5D /* IgSplashScreenViewController.swift */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		48A434512CD527E000465B5D /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				48A434532CD52C6D00465B5D /* IgHomeTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		48A4345A2CD52CB800465B5D /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				48A434672CD52CFE00465B5D /* View */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		48A4345B2CD52CB800465B5D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				48A434682CD52CFE00465B5D /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		48A4345C2CD52CB800465B5D /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				48A434692CD52CFE00465B5D /* View */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		48A4345D2CD52CB800465B5D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				48A434652CD52CFE00465B5D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		48A434652CD52CFE00465B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A434642CD52CFE00465B5D /* IgProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A434672CD52CFE00465B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A4346A2CD52D0700465B5D /* IgReelsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A434682CD52CFE00465B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A4346C2CD52D1100465B5D /* IgSearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A434692CD52CFE00465B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A4346E2CD52D1B00465B5D /* IgCreateViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		48CB94632CD4FA4F00DED792 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				48A434442CD50E0C00465B5D /* SplashScreen */,
 				48CB94682CD4FA6900DED792 /* Home */,
+				48A4345D2CD52CB800465B5D /* Profile */,
+				48A4345A2CD52CB800465B5D /* Reels */,
+				48A4345B2CD52CB800465B5D /* Search */,
+				48A4345C2CD52CB800465B5D /* Create */,
+				48A434512CD527E000465B5D /* TabBarController */,
+				48A434442CD50E0C00465B5D /* SplashScreen */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -237,10 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A434662CD52CFE00465B5D /* IgProfileViewController.swift in Sources */,
 				482EC4F52CD4F8E300B2F6A0 /* AppDelegate.swift in Sources */,
+				48A4346F2CD52D1B00465B5D /* IgCreateViewController.swift in Sources */,
+				48A4346D2CD52D1100465B5D /* IgSearchViewController.swift in Sources */,
 				482EC4F62CD4F8E300B2F6A0 /* SceneDelegate.swift in Sources */,
-				48A434452CD50E0C00465B5D /* SplashScreenViewController.swift in Sources */,
+				48A434452CD50E0C00465B5D /* IgSplashScreenViewController.swift in Sources */,
+				48A4346B2CD52D0700465B5D /* IgReelsViewController.swift in Sources */,
 				48CB94692CD4FA6900DED792 /* IgHomeViewController.swift in Sources */,
+				48A434542CD52C6D00465B5D /* IgHomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
