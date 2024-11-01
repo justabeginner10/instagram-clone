@@ -11,7 +11,6 @@
 		482EC4F62CD4F8E300B2F6A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482EC4F22CD4F8E300B2F6A0 /* SceneDelegate.swift */; };
 		482EC4F82CD4F8E300B2F6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482EC4EC2CD4F8E300B2F6A0 /* Assets.xcassets */; };
 		482EC4FA2CD4F8E300B2F6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482EC4EF2CD4F8E300B2F6A0 /* LaunchScreen.storyboard */; };
-		482EC4FB2CD4F8E300B2F6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482EC4F12CD4F8E300B2F6A0 /* Main.storyboard */; };
 		48CB94692CD4FA6900DED792 /* IgHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CB94662CD4FA6900DED792 /* IgHomeViewController.swift */; };
 		F29D855A6D1057E7A72344AD /* Pods_Instagram_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887BFBAEACEA935C81EF7A5 /* Pods_Instagram_Clone.framework */; };
 /* End PBXBuildFile section */
@@ -23,7 +22,6 @@
 		482EC4EC2CD4F8E300B2F6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482EC4ED2CD4F8E300B2F6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482EC4EE2CD4F8E300B2F6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		482EC4F02CD4F8E300B2F6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		482EC4F22CD4F8E300B2F6A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		48CB94662CD4FA6900DED792 /* IgHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgHomeViewController.swift; sourceTree = "<group>"; };
 		A12C0C302D859CE5BB2B9A1D /* Pods-Instagram-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-Clone/Pods-Instagram-Clone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				482EC4EC2CD4F8E300B2F6A0 /* Assets.xcassets */,
 				482EC4ED2CD4F8E300B2F6A0 /* Info.plist */,
 				482EC4EF2CD4F8E300B2F6A0 /* LaunchScreen.storyboard */,
-				482EC4F12CD4F8E300B2F6A0 /* Main.storyboard */,
 				482EC4F22CD4F8E300B2F6A0 /* SceneDelegate.swift */,
 			);
 			path = "Instagram-Clone";
@@ -177,7 +174,6 @@
 			files = (
 				482EC4F82CD4F8E300B2F6A0 /* Assets.xcassets in Resources */,
 				482EC4FA2CD4F8E300B2F6A0 /* LaunchScreen.storyboard in Resources */,
-				482EC4FB2CD4F8E300B2F6A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,14 +243,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		482EC4F12CD4F8E300B2F6A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				482EC4F02CD4F8E300B2F6A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -272,7 +260,6 @@
 				INFOPLIST_FILE = "Instagram-Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +289,6 @@
 				INFOPLIST_FILE = "Instagram-Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

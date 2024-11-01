@@ -4,3 +4,6 @@
 
 # macOS system files
 .DS_Store
+
+# userState files
+*.xcuserstate
